@@ -126,7 +126,6 @@ docker run -d -v $(pwd)/sonarqube-test:/root/src --name sonarqube -p 9000:9000 -
 
 
 Java version hatası verirse
-
 sudo apt-get install openjdk-11-jdk
 ```
 

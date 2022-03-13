@@ -123,6 +123,11 @@ kubectl create namespace prod
 ```
 mkdir $HOME/sonarqube-test
 docker run -d -v $(pwd)/sonarqube-test:/root/src --name sonarqube -p 9000:9000 -p 9092:9092 sonarqube
+
+
+Java version hatası verirse
+
+sudo apt-get install openjdk-11-jdk
 ```
 
 
@@ -139,4 +144,4 @@ docker images -a | grep "days" | awk '{print $3}' | xargs docker rmi -f
   git config --global user.name "serkan.tasci"
   Set your email address:
   git config --global user.email "aliserkantasci@gmail.com"
-  değişiklik 23
+  değişiklik 232w
